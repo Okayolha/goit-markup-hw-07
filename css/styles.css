@@ -1,4 +1,4 @@
-html {
+/* html {
   box-sizing: border-box;
 }
 *,
@@ -65,15 +65,12 @@ body {
 }
 .no-pading {
   padding-bottom: 0;
-}
+} */
 
 /* Шапка */
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
-}
-.main-end {
-  border-bottom: 1px solid #ececec;
 }
 .logo {
   padding-top: 24px;
@@ -88,9 +85,9 @@ body {
 }
 .studio {
   color: var(--text-color);
-}
+} */
 /* Навігації */
-.site-nav {
+/* .site-nav {
   display: flex;
   margin-left: 93px;
 }
@@ -131,10 +128,10 @@ body {
 
   background: #2196f3;
   border-radius: 2px;
-}
+} */
 
 /* Контакти */
-.auth-nav {
+/* .auth-nav {
   display: flex;
   margin-left: auto;
   line-height: 16px;
@@ -167,10 +164,10 @@ body {
 .info:focus {
   color: var(--button-color);
   fill: var(--button-color);
-}
+} */
 
 /* Герой */
-.hero {
+/* .hero {
   padding: 200px 0 200px 0;
   max-width: 1600px;
   height: 600px;
@@ -230,10 +227,10 @@ body {
 .button-primary:hover,
 .button-primary:focus {
   background-color: var(--button-activ);
-}
+} */
 
 /* Секції */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -245,9 +242,9 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /* Список переваг */
-.feature-list {
+/* .feature-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
@@ -266,9 +263,9 @@ body {
 }
 .feature-list .desc {
   line-height: 1.71;
-}
+} */
 /* Іконки перваг */
-.icon-element {
+/* .icon-element {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,10 +281,10 @@ body {
 }
 .icon-header-mail:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 /* Чим займаємось */
-.img {
+/* .img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
@@ -308,8 +305,7 @@ body {
   text-align: center;
 }
 
-/* тінь та надпис */
-.block-descr-images {
+.work-section__text {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -326,10 +322,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--background-color);
-}
+} */
 
 /* Команда */
-.team-section {
+/* .team-section {
   background: var(--animation-name);
 }
 .items {
@@ -369,10 +365,10 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-}
+} */
 
 /* іконки соцмереж */
-.icon-wrapper {
+/* .icon-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -407,10 +403,10 @@ body {
 }
 .link-icon-list:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
 /* Постійні клієнти ІКОНКИ */
-.section-clients .section-title {
+/* .section-clients .section-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -448,10 +444,10 @@ body {
 .link-icon:focus {
   fill: var(--button-color);
   border-color: var(--button-color);
-}
+} */
 
 /* Футер Лого*/
-.footer {
+/* .footer {
   background: var(--brand-color);
   height: 252px;
   padding: 60px 0 60px 0;
@@ -481,7 +477,6 @@ body {
   color: var(--button-color);
 }
 
-/* Контакти */
 address li {
   margin-bottom: 9px;
 }
@@ -517,7 +512,7 @@ address li:last-child {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* Іконки соцмереж футер */
+
 
 .icon-wrapper-footer {
   display: flex;
@@ -571,7 +566,7 @@ address li:last-child {
   margin-right: 10px;
 }
 
-/* Підписка */
+
 
 .form-input {
   margin-left: 93px;
@@ -638,11 +633,11 @@ address li:last-child {
 .button-submit-send:hover {
   background-color: var(--button-activ);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Стилі для Portfoio */
 /* Кнопки навігації */
-.btn-portfolio {
+/* .btn-portfolio {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -676,11 +671,11 @@ address li:last-child {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
+} */
 
 /* Портфоліо */
 
-.firs-block {
+/* .firs-block {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -716,9 +711,9 @@ address li:last-child {
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 /* HOVER для портфоліо */
-.thumb {
+/* .thumb {
   position: relative;
   overflow: hidden;
 }
@@ -750,10 +745,10 @@ address li:last-child {
   letter-spacing: 0.03em;
 
   color: var(--background-color);
-}
+} */
 
 /* Модальне вікно */
-.backdrop {
+/* .backdrop {
   position: fixed;
   z-index: 1;
   top: 0;
@@ -810,9 +805,9 @@ address li:last-child {
 .icon-close {
   width: 11px;
   height: 11px;
-}
+} */
 /* Форма */
-.form {
+/* .form {
   width: 528px;
   margin-left: auto;
   margin-right: auto;
@@ -915,11 +910,11 @@ address li:last-child {
   border-color: var(--button-color);
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Чекбокс */
 
-.options-form-field {
+/* .options-form-field {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -966,8 +961,8 @@ address li:last-child {
 .options-checkbox:focus + .icon-checkbox-box {
   border-color: var(--button-color);
 }
-/*  */
-.clic {
+/*  
+/* .clic {
   text-decoration: underline;
   color: var(--button-color);
   margin-left: 4px;
@@ -1008,4 +1003,4 @@ address li:last-child {
 .button-submit-text:hover,
 .button-submit-text:focus {
   background-color: var(--button-activ);
-}
+} */
